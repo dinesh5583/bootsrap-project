@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Lato','Arial', sans-serif;
+    color: #555;
+}
+.row{
+	max-width: 1140px;
+	margin: 0 auto;  /* make layout  in center*/
+}
+.div-1{
+    background: blue;
+}
+.main-nav{
+    list-style: none;
+    float: right;
+    margin: 20px 0;
+}
+.main-nav li{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+.nav li:hover{
+    border-bottom: 1px solid red;
+    color: blue;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+
+}
+.part-1,.part-2{
+    width: 50%;
+}
+.part-1{
+    float: left;
+}
+.part-2{
+    float: right;
+}
